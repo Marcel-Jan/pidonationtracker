@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pidonationtracker"
+version = "0.2.0"
+description = "To project the gift amount on my teams Tour for Life page on a Raspberry Pi with e-ink display"
+authors = ["Marcel-Jan Krijgsman <pidonationtracker@marcel-jan.eu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pidonationtracker", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+pillow = "^10.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
