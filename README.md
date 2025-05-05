@@ -12,17 +12,17 @@ In pydonationtracker2025_inky.py there's a variable called personal_url where I 
 ## Running the script
 Copy the code to /home/youruser/PythonProjects/pidonationtracker.
 
-Install pipx and poetry:
+Install pipx and poetry:  
     sudo apt update
     sudo apt install pipx
     pipx ensurepath
     pipx install poetry
 
-From the pidonationtracker directory:
-Run poetry install:
+From the pidonationtracker directory:  
+Run poetry install:  
     poetry install
 
-Run poetry shell:
+Run poetry shell:  
     poetry shell
 
     python3 src/pidonationtracker/pydonationtracker2025_inky.py
