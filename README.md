@@ -9,6 +9,15 @@ I use this for our sponsoring events where we collect sponsoring for the Daniel 
 ## Changing the sponsor link
 In pydonationtracker2025_inky.py there's a variable called personal_url where I put the url of my Tour for Life 2025 sponsor page.
 
+## Hardware
+My setup:
+- Raspberry Pi Zero 2 (but other Raspberry Pi's probably also work).
+- ([Inky Impressions 7.3 e-ink display](https://shop.pimoroni.com/products/inky-impression-7-3?variant=55186435244411)).
+
+For using it in "the field":
+- A powerbank for powering the Raspberry Pi.
+- A mobile phone with hotspot for WiFi connection.
+
 ## Running the script
 Copy the code to /home/youruser/PythonProjects/pidonationtracker.
 
